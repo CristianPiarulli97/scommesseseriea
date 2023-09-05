@@ -1,0 +1,38 @@
+
+<div class="basic-container">
+  <mat-grid-list cols="12" rowHeight="fit" gutterSize="10px" [style.height]="'500px'">
+    <mat-grid-tile *ngFor="let i of [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,]">
+      <mat-card [style.width]="'600%'">
+        <div fxLayout="row">
+          <div fxFlex="36">
+
+          </div>
+
+          <div fxFlex fxFlexAlign="center">
+            <div fxLayout="row">
+              Giornata {{i}}
+            </div>
+            <div fxLayout="row">
+              <mat-icon [style.color]="'Red'">WINN</mat-icon>
+
+            </div>
+          </div>
+
+          <div fxFlex="100px" fxFlexAlign="align">
+            <button mat-icon-button>
+              <mat-icon>home</mat-icon>
+            </button>
+          </div>
+        </div>
+      </mat-card>
+    </mat-grid-tile>
+  </mat-grid-list>
+  <span class="version-info">Current build: {{version.full}}</span>
+</div>
+
+<!--
+Copyright Google LLC All Rights Reserved.
+
+Use of this source code is governed by an MIT-style license that can be
+found in the LICENSE file at https://angular.io/license
+-->
