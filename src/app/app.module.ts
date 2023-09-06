@@ -20,6 +20,8 @@ import { CalendarioComponent } from './components/calendario/calendario.componen
 import {MatChipsModule} from "@angular/material/chips";
 import {MatCardModule} from "@angular/material/card";
 import {MatGridListModule} from "@angular/material/grid-list";
+import {GiornataComponent} from './components/giornata/giornata.component';
+import {MatTableModule} from "@angular/material/table";
 
 @NgModule({
   declarations: [
@@ -27,6 +29,7 @@ import {MatGridListModule} from "@angular/material/grid-list";
     ToolbarComponent,
     SidenavComponent,
     CalendarioComponent,
+    GiornataComponent
 
   ],
   imports: [
@@ -45,6 +48,7 @@ import {MatGridListModule} from "@angular/material/grid-list";
     MatChipsModule,
     MatCardModule,
     MatGridListModule,
+    MatTableModule,
 
   ],
   providers: [],
