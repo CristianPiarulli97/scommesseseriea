@@ -5,15 +5,29 @@
       <mat-list-item (click)="showSubmenu = !showSubmenu" class="parent">
         <span class="full-width" *ngIf="isExpanded || isShowing">Calendario</span>
 
+
         <mat-icon class="menu-button" [ngClass]="{'rotated' : showSubmenu}" *ngIf="isExpanded || isShowing">expand_more</mat-icon>
       </mat-list-item>
       <div class="submenu" [ngClass]="{'expanded' : showSubmenu}" *ngIf="isShowing || isExpanded">
-        <a mat-list-item href="...">Submenu Item 1</a>
-        <a mat-list-item href="...">Submenu Item 2</a>
+        <a mat-list-item href="...">Giornata 4</a>
+        <a mat-list-item href="...">Giornata 5</a>
+        <a mat-list-item href="...">Giornata 6</a>
+        <a mat-list-item href="...">Giornata 7</a>
+        <a mat-list-item href="...">Giornata 8</a>
+        <a mat-list-item href="...">Giornata 9</a>
+        <a mat-list-item href="...">Giornata 10</a>
+        <a mat-list-item href="...">Giornata 11</a>
+        <a mat-list-item href="...">Giornata 12</a>
+        <a mat-list-item href="...">Giornata 13</a>
+        <a mat-list-item href="...">Giornata 14</a>
+        <a mat-list-item href="...">Giornata 15</a>
+
+
         <mat-list-item (click)="showSubSubMenu = !showSubSubMenu" class="parent">
           <span class="full-width" *ngIf="isExpanded || isShowing">Nested Menu</span>
           <mat-icon class="menu-button" [ngClass]="{'rotated' : showSubSubMenu}" *ngIf="isExpanded || isShowing">expand_more</mat-icon>
         </mat-list-item>
+
         <div class="submenu" [ngClass]="{'expanded' : showSubSubMenu}" *ngIf="isShowing || isExpanded">
           <mat-list-item>SubSubmenu Item 1</mat-list-item>
           <mat-list-item>SubSubmenu Item 2</mat-list-item>

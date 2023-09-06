@@ -20,14 +20,14 @@ import { CalendarioComponent } from './components/calendario/calendario.componen
 import {MatChipsModule} from "@angular/material/chips";
 import {MatCardModule} from "@angular/material/card";
 import {MatGridListModule} from "@angular/material/grid-list";
-import { CalendarComponent } from './components/calendar/calendar.component';
+
 @NgModule({
   declarations: [
     AppComponent,
     ToolbarComponent,
     SidenavComponent,
     CalendarioComponent,
-    CalendarComponent
+
   ],
   imports: [
     BrowserModule,
